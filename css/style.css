@@ -1,0 +1,13 @@
+div     {
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left:  10px;
+}
+
+div     {
+    width: 300;
+    border: 15 px solid green;
+    padding: 50px;
+    margin: 20px;
+}

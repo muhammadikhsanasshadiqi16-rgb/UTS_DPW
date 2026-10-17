@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio ikhsan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    
+    <header>
+        <section class="site-header">
+            <nav class="logo" id="logo">ikhsan asshadiqi</nav>
+            <a href="#beranda"></a>
+            <ul class="">
+                <li><a href="#Beranda">Beranda</a></li>
+                <li><a href="#tentang">tentang</a></li>a
+                <li><a href="#proyek">proyek</a></li>
+                <li><a href="#kontak">kontak</a></li>
+                <li></li>
+            </ul>
+        </section>
+
+        <main>
+        <section id="beranda" class="beranda">
+            <div class="container beranda">
+                <img class="foto-profil" src="assets/FotoProfile.jpg" alt="Gambar hero" width="1800" height="1800">
+                <h1> halo saya isan</h1>
+                <p class="profesi">Pengembang Web</p>
+                <a href="#proyek" class="tombol tombol-utama">Lihat Proyek</a>
+            </div>                
+        </section>
+
+        <section id="tentang" class="tentang">
+            <div class="container">
+                <img class="foto-tentang" src="assets/FotoProfile.jpg" alt="Gambar tentang saya" width="400" height="400">
+                <h2>Tentang Saya</h2>
+                <p>Halo, saya muhammad ikhsan asshadiqi, seorang pengembang web. Saya belajar HTML, CSS, JavaScript.</p>
+                <div id="teks-tambahan" class="teks-tambahan" hidden>
+                    <p> saya belajar tentang framework juga</p>
+
+            </div>
+            
+            <section id="proyek" class="bagian">
+                <div class="wadah">
+                    <h2>Proyek / Keahlian</h2>
+
+                    <div class="daftar-proyek">
+                    <article class="kartu-proyek">
+                        <img src="assets/html.png" alt="html" width="400" height="240" loading="lazy">
+                        <div class="isi-kartu">
+                        <h3>Html</h3>
+                        <p>Website personal responsif menggunakan HTML.</p>
+                        </div>
+                    </article>
+
+                    <article class="kartu-proyek">
+                        <img src="assets/css.png" alt="css" width="400" height="240" loading="lazy">
+                        <div class="isi-kartu">
+                        <h3>css</h3>
+                        <p> saya belum menguasai css sama sekali</p>
+                        </div>
+                    </article>
+
+                    <article class="kartu-proyek">
+                        <img src="assets/javascript.png" alt="Javascrip" width="400" height="240" loading="lazy">
+                        <div class="isi-kartu">
+                        <h3>JavaScript</h3>
+                        <p> saya masih belajar javascript</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+                
+            <section id="kontak" class="bagian bagian-alternatif">
+                <div class="wadah">
+                    <h2>Kontak</h2>
+
+                    <div class="susunan-kontak">
+                        <form id="form-kontak" class="formulir">
+                            <div class="kolom-formulir"><label for="nama">Nama</label>
+                                <input type="text" id="nama" name="nama"
+                                placeholder="Nama lengkap" required autocomplete="name">
+                            </div>
+
+                            <div class="kolom-formulir"><label for="email">Email</label>
+                                <input type="email" id="email" name="email"
+                                placeholder="nama@email.com" required autocomplete="email">
+                            </div>
+
+                            <div class="kolom-formulir"><label for="pesan">Pesan</label>
+                                <textarea id="pesan" name="pesan" rows="5"
+                                placeholder="Tulis pesan Anda" required></textarea>
+                            </div>
+
+                            <div class="aksi-formulir">
+                                <button type="submit" class="tombol tombol-utama">Kirim</button>
+                                <p id="pesan-terima-kasih" class="status-pesan"></p>
+                            </div>
+                        </form>
+
+                        <div class="info-kontak">
+                            <p>Allah tidak akan menguji hambanya diluar batas kemampuannya</p>
+                            <p>anda butuh programer jago hubungi saya</p>
+
+                            <p>Email: muhammadikhsan16@gmail.com<br>
+                            Lokasi: pekanBaru, Riau
+                            </p>
+                        </div>
+                    </div>
+                </section>        
+        </main>
+    
+</body>
+
+</html>
